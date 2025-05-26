@@ -1,12 +1,31 @@
-# React + Vite
+# ⏱️ React Stopwatch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive **Stopwatch app** built with **React** using functional components and hooks (`useState`, `useEffect`).  
+It displays time with millisecond precision and includes Start, Stop, and Reset controls.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+[View Live App](https://fady-elshahat.github.io/Stopwatch_React/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Features
+
+- Real-time stopwatch with **minutes, seconds, and milliseconds**  
+- Simple **Start**, **Stop**, and **Reset** buttons  
+- Responsive design for desktop and mobile  
+- Built with React Hooks (`useState`, `useEffect`) only  
+- Clean, readable code for learning and customization  
+- RTL support for Arabic layouts
+
+---
+
+## 🛠️ Installation & Running Locally
+
+```bash
+git clone https://github.com/fady-elshahat/Stopwatch_React.git
+cd Stopwatch_React
+npm install
+npm run dev
